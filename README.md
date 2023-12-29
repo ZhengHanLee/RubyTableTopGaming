@@ -1,7 +1,7 @@
 # RubyTableTopGaming
 This program is written in Ruby and implements a series of classes to simulate the popular pass time of table top gaming.
 
-
+# Unit
 Unit: The Unit class is the base of the hierarchy. It will implement the basic fields for the rest of the tree. The Unit must have a field for the following:
         quality
         defence
@@ -9,41 +9,36 @@ Unit: The Unit class is the base of the hierarchy. It will implement the basic f
         points
         upgrades
 
-For the to_s, it will return a string in the following format:
-
+The string format for a Unit is:
 Name of Unit (points, quality, defense) 
 
-If the Unit has any Upgrades those will be appended to the end of the Unit’s to_s using the to_s for each of the Upgrades that the Unit contains.
-
-
+# EnhancedUnit
 EnhancedUnit is a direct subclass of the Unit. In addition to what the Unit provides, the EnhancedUnit will add a specialrule field and appropriate setters and getters for the field.
 
 For the to_s method the EnhancedUnit will add to the string provided by its parent the following
 
 special rule: [the special rule it contains]
 
-Hero and Monster: The Hero and Monster are two subclasses of EnhancedUnit.
+# Hero/Monster
+The Hero and Monster are two subclasses of EnhancedUnit.
 
-They will have the same constructor as the Unit and pass their parameters to their parent for initialization.
-
-Squad: In table top gaming, players will organize their unit’s into groups, called squads. So we will model this with a Sqaud class. It will also subclass the EnhancedUnit. The Squad will add the ability to store units in an array.
+# Squad
+In table top gaming, players will organize their unit’s into groups, called squads. So we will model this with a Sqaud class. It will also subclass the EnhancedUnit. The Squad will add the ability to store units in an array.
 
 For getting the points for the squad, this will be the sum of the points for each of its units, using the getPoints for the Unit. This should have the Unit also provide a sum of its points, if it were to have any upgrades added to it.
 
-The to_s will be of the following format:
+The string format for a squad is:
 
 units: <followed by the to_s for each unit>
 
 If there are no units in the Squad, then nothing is added to the string.
 
+# Army
 Army: The final layer of this hierarchy is the Army. The army is a subclass of the Squad. The Army will store in addition to its subclass(es) a Name for the player and that players associated Faction.
 
 The to_s for the Army will add the player’s name and faction to the front of the string.
 
 Player: Player's Name faction: faction name
-
-and then after that will be added the to_s from the parent.
-
 
 # Example
 Input
