@@ -1,0 +1,87 @@
+Creating Unit: Fighter, 98
+	Fighter (98, 2, 2) 
+Creating Monster: Beholder, 73
+	Beholder (73, 4, 4) 
+Creating Hero: Minsc, 95
+	Minsc (95, 5, 5) 
+Creating Squad: The Dragon Riders
+	The Dragon Riders (0, 2, 2) 
+Adding special rule Shadow Walk to Minsc (95, 5, 5) 
+Added special rule Shadow Walk to Minsc (95, 5, 5) special rule: [Shadow Walk] 
+Creating Enhanced Unit: Enhanced Wizard, 65
+	Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] 
+Adding Enhanced Unit to Squad
+	The Dragon Riders (65, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] 
+Creating Enhanced Unit: Enhanced Ranger, 35
+	Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] 
+Adding Enhanced Unit to Squad
+	The Dragon Riders (100, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] 
+Creating Enhanced Unit: Enhanced Necromancer, 61
+	Enhanced Necromancer (61, 2, 2) special rule: [Polymorph] 
+Adding Enhanced Unit to Squad
+	The Dragon Riders (161, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] Enhanced Necromancer (61, 2, 2) special rule: [Polymorph] 
+Adding special rule Elemental Resistance to Enhanced Necromancer (61, 2, 2) special rule: [Polymorph] 
+Added special rule Elemental Resistance to Enhanced Necromancer (61, 2, 2) special rule: [Elemental Resistance] 
+Creating Monster: Hydra, 70
+	Hydra (70, 4, 4) 
+Adding Monster to Squad
+	The Dragon Riders (231, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] Enhanced Necromancer (61, 2, 2) special rule: [Elemental Resistance] Hydra (70, 4, 4) 
+Creating Army: The Black Knights, Grace, Circle of the Druids
+	Player: Grace,  faction: Circle of the Druids, army: The Black Knights (0, 2, 2) 
+Creating Enhanced Unit: Enhanced Wizard, 71
+	Enhanced Wizard (71, 2, 2) special rule: [Illusion] 
+Adding Enhanced Unit to Squad
+	The Dragon Riders (302, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] Enhanced Necromancer (61, 2, 2) special rule: [Elemental Resistance] Hydra (70, 4, 4) Enhanced Wizard (71, 2, 2) special rule: [Illusion] 
+Creating Monster: Goblin, 87
+	Goblin (87, 4, 4) 
+Adding Monster to Squad
+	The Dragon Riders (389, 2, 2) units: Enhanced Wizard (65, 2, 2) special rule: [Summon Elemental] Enhanced Ranger (35, 2, 2) special rule: [Summon Elemental] Enhanced Necromancer (61, 2, 2) special rule: [Elemental Resistance] Hydra (70, 4, 4) Enhanced Wizard (71, 2, 2) special rule: [Illusion] Goblin (87, 4, 4) 
+Creating Squad: The Arcane Legion
+	The Arcane Legion (0, 2, 2) 
+Adding Squad to Army
+	Player: Grace,  faction: Circle of the Druids, army: The Black Knights (0, 2, 2) units: The Arcane Legion (0, 2, 2) 
+Creating Monster: Troll, 95
+	Troll (95, 4, 4) 
+Adding Monster to Squad
+	The Arcane Legion (95, 2, 2) units: Troll (95, 4, 4) 
+Creating Unit: Necromancer, 50
+	Necromancer (50, 2, 2) 
+Adding Unit to Squad
+	The Arcane Legion (145, 2, 2) units: Troll (95, 4, 4) Necromancer (50, 2, 2) 
+Creating Unit: Ranger, 60
+	Ranger (60, 2, 2) 
+Adding Unit to Squad
+	The Arcane Legion (205, 2, 2) units: Troll (95, 4, 4) Necromancer (50, 2, 2) Ranger (60, 2, 2) 
+Creating Squad: The Death Squad
+	The Death Squad (0, 2, 2) 
+Adding Squad to Army
+	Player: Grace,  faction: Circle of the Druids, army: The Black Knights (205, 2, 2) units: The Arcane Legion (205, 2, 2) units: Troll (95, 4, 4) Necromancer (50, 2, 2) Ranger (60, 2, 2) The Death Squad (0, 2, 2) 
+Creating Upgrade: Boots of Elvenkind, 57
+	Boots of Elvenkind (57)
+Adding Upgrade to Unit
+	Ranger (117, 2, 2) upgrades: [Boots of Elvenkind (57)] 
+Creating Upgrade: Ring of Invisibility, 51
+	Ring of Invisibility (51)
+Adding Upgrade to Unit
+	Ranger (168, 2, 2) upgrades: [Boots of Elvenkind (57), Ring of Invisibility (51)] 
+Creating Enhanced Unit: Enhanced Paladin, 44
+	Enhanced Paladin (44, 2, 2) special rule: [Mind Control] 
+Adding Enhanced Unit to Squad
+	The Death Squad (44, 2, 2) units: Enhanced Paladin (44, 2, 2) special rule: [Mind Control] 
+Adding special rule Death Touch to Enhanced Paladin (44, 2, 2) special rule: [Mind Control] 
+Added special rule Death Touch to Enhanced Paladin (44, 2, 2) special rule: [Death Touch] 
+Creating Hero: Rasaad yn Bashir, 60
+	Rasaad yn Bashir (60, 5, 5) 
+Adding Hero to Squad
+	The Death Squad (104, 2, 2) units: Enhanced Paladin (44, 2, 2) special rule: [Death Touch] Rasaad yn Bashir (60, 5, 5) 
+Creating Unit: Barbarian, 99
+	Barbarian (99, 2, 2) 
+Adding Unit to Squad
+	The Death Squad (203, 2, 2) units: Enhanced Paladin (44, 2, 2) special rule: [Death Touch] Rasaad yn Bashir (60, 5, 5) Barbarian (99, 2, 2) 
+Adding special rule Shapeshifting to Rasaad yn Bashir (60, 5, 5) 
+Added special rule Shapeshifting to Rasaad yn Bashir (60, 5, 5) special rule: [Shapeshifting] 
+Summary of final units
+Last army: Player: Grace,  faction: Circle of the Druids, army: The Black Knights (516, 2, 2) units: The Arcane Legion (313, 2, 2) units: Troll (95, 4, 4) Necromancer (50, 2, 2) Ranger (168, 2, 2) upgrades: [Boots of Elvenkind (57), Ring of Invisibility (51)] The Death Squad (203, 2, 2) units: Enhanced Paladin (44, 2, 2) special rule: [Death Touch] Rasaad yn Bashir (60, 5, 5) special rule: [Shapeshifting] Barbarian (99, 2, 2) 
+Last squad: The Death Squad (203, 2, 2) units: Enhanced Paladin (44, 2, 2) special rule: [Death Touch] Rasaad yn Bashir (60, 5, 5) special rule: [Shapeshifting] Barbarian (99, 2, 2) 
+Last enhanced unit: Rasaad yn Bashir (60, 5, 5) special rule: [Shapeshifting] 
+Last unit: Barbarian (99, 2, 2) 

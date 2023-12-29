@@ -1,0 +1,25 @@
+Unit:	Fighter	98
+Monster:	Beholder	73
+Hero:	Minsc	95
+Squad:	The Dragon Riders
+Special Rule:	Shadow Walk
+Enhanced Unit:	Enhanced Wizard	65	Summon Elemental
+Enhanced Unit:	Enhanced Ranger	35	Summon Elemental
+Enhanced Unit:	Enhanced Necromancer	61	Polymorph
+Special Rule:	Elemental Resistance
+Monster:	Hydra	70
+Army:	The Black Knights	Grace	Circle of the Druids
+Enhanced Unit:	Enhanced Wizard	71	Illusion
+Monster:	Goblin	87
+Squad:	The Arcane Legion
+Monster:	Troll	95
+Unit:	Necromancer	50
+Unit:	Ranger	60
+Squad:	The Death Squad
+Upgrade:	Boots of Elvenkind	57
+Upgrade:	Ring of Invisibility	51
+Enhanced Unit:	Enhanced Paladin	44	Mind Control
+Special Rule:	Death Touch
+Hero:	Rasaad yn Bashir	60
+Unit:	Barbarian	99
+Special Rule:	Shapeshifting
